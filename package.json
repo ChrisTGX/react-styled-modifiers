@@ -13,5 +13,8 @@
     "modifiers"
   ],
   "author": "Christian Teixeira",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
 }
