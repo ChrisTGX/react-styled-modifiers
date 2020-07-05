@@ -1,0 +1,17 @@
+{
+  "name": "react-styled-modifiers",
+  "version": "0.1.0",
+  "description": "A lightweight library that enhances React styled components with modifiers",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "bem",
+    "styled-components",
+    "modifiers"
+  ],
+  "author": "Christian Teixeira",
+  "license": "MIT"
+}
