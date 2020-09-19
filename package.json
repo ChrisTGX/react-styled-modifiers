@@ -1,20 +1,29 @@
 {
-  "name": "react-styled-modifiers",
-  "version": "0.1.0",
-  "description": "A lightweight library that enhances React styled components with modifiers",
-  "main": "dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "react",
-    "bem",
-    "styled-components",
-    "modifiers"
-  ],
-  "author": "Christian Teixeira",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^3.9.6"
-  }
+    "name": "react-styled-modifiers",
+    "version": "0.1.0",
+    "description": "A lightweight library that enhances React styled components with modifiers",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "react",
+        "bem",
+        "styled-components",
+        "modifiers"
+    ],
+    "author": "Christian Teixeira",
+    "license": "MIT",
+    "peerDependencies": {
+        "lodash": "^4.17.20",
+        "styled-components": "^5.2.0"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.161",
+        "@types/styled-components": "^5.1.3",
+        "lodash": "^4.17.20",
+        "prettier": "^2.1.2",
+        "styled-components": "^5.2.0",
+        "typescript": "^3.9.6"
+    }
 }

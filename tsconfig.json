@@ -1,19 +1,25 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "jsx": "react",
-    "declaration": true,
-    "outFile": "dist/index.js",
-    "strict": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
-  }
+    "compilerOptions": {
+        "target": "es5",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "declaration": true,
+        "declarationDir": "lib/",
+        "strict": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "baseUrl": "src/",
+        "outDir": "lib/",
+        "lib": ["es5", "dom", "esnext", "dom.iterable"],
+
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+
+    "include": ["src/"],
+    "exclude": ["node_modules", "__tests__"]
 }
