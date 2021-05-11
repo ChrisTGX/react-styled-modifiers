@@ -15,13 +15,13 @@
     "author": "Christian Teixeira",
     "license": "MIT",
     "peerDependencies": {
-        "lodash": "^4.17.20",
+        "lodash": "^4.17.21",
         "styled-components": "^5.2.0"
     },
     "devDependencies": {
         "@types/lodash": "^4.14.161",
         "@types/styled-components": "^5.1.3",
-        "lodash": "^4.17.20",
+        "lodash": "^4.17.21",
         "prettier": "^2.1.2",
         "styled-components": "^5.2.0",
         "typescript": "^3.9.6"
